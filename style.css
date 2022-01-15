@@ -50,6 +50,19 @@ h1 {
     margin-right: 5px;
     margin-bottom: 1px;
     background-color: goldenrod;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.90);
+}
+
+.btn:focus {
+    background-color: green;
+}
+
+.bigbtn:active {
+    transform: scale(0.90);
 }
 
 #buttons {
@@ -71,4 +84,5 @@ button {
     margin-right: 5px;
     margin-left: 5px;
     text-align: center;
+    cursor: pointer;
 }
