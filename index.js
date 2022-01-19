@@ -20,6 +20,7 @@ const table12 = document.getElementById("table-el12")
 table1.addEventListener("click", function() {
     console.log("Table 1 Clicked")
 })
+
 table2.addEventListener("click", function() {
     console.log("Table 2 Clicked")
 })
