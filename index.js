@@ -2,6 +2,9 @@
 const questionBtn = document.getElementById("question-btn")
 const answerBtn = document.getElementById("answer-btn")
 
+const questionBox = document.getElementById("question-el")
+const answerBox = document.getElementById("answer-el")
+
 const table1 = document.getElementById("table-el1")
 const table2 = document.getElementById("table-el2") 
 const table3 = document.getElementById("table-el3") 
@@ -15,15 +18,28 @@ const table10 = document.getElementById("table-el10")
 const table11 = document.getElementById("table-el11") 
 const table12 = document.getElementById("table-el12") 
 
+const lstTable1 = {
+    "1x1": "1",
+    "1x2": "2"
+}
 
 /*Multiplication table functions*/
 table1.addEventListener("click", function() {
-    console.log("Table 1 Clicked")
+    questionBox.textContent = "Question for table 1"
+})
+
+table1.addEventListener("click", function() {
+    answerBox.textContent = "Answer for table 1"
 })
 
 table2.addEventListener("click", function() {
-    console.log("Table 2 Clicked")
+    questionBox.textContent = "Question for table 2"
 })
+
+table2.addEventListener("click", function() {
+    answerBox.textContent = "Answer for table 2"
+})
+
 table3.addEventListener("click", function() {
     console.log("Table 3 Clicked")
 })
