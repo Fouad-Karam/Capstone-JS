@@ -74,9 +74,11 @@ table12.addEventListener("click", function() {
 
 /*Question & Answer functions*/
 questionBtn.addEventListener("click", function() {
-    console.log("New Question Clicked");
+    questionBox.textContent = Object.keys(lstTable1)[0]
+    //console.log("New Question Clicked");
 })
 
 answerBtn.addEventListener("click", function() {
-    console.log("New Answer Clicked");
+    answerBox.textContent = lstTable1["1x1"]
+    //console.log("New Answer Clicked");
 })
