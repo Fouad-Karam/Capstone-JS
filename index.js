@@ -25,6 +25,9 @@ const lstTable1 = {
     "1x4": "4"
 }
 
+let test = ["1x1", "1x2", "1x3", "1x4"]
+let ans = ["1", "2", "3", "4"]
+
 /*Multiplication table functions*/
 table1.addEventListener("click", function() {
     questionBox.textContent = "You are on Table 1"
