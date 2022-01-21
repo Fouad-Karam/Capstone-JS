@@ -20,12 +20,14 @@ const table12 = document.getElementById("table-el12")
 
 const lstTable1 = {
     "1x1": "1",
-    "1x2": "2"
+    "1x2": "2",
+    "1x3": "3",
+    "1x4": "4"
 }
 
 /*Multiplication table functions*/
 table1.addEventListener("click", function() {
-    questionBox.textContent = "Question for table 1"
+    questionBox.textContent = "You are on Table 1"
 })
 
 table1.addEventListener("click", function() {
